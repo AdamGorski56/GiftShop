@@ -1,0 +1,135 @@
+.occasions__text{
+    margin-bottom: 10vw;
+}
+
+
+.occasions__title{
+            font-weight: bold;
+            font-size: 32px;
+            text-align: center;
+}
+
+.occasions_paragraph{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.occasion__items{
+    height: auto;
+}
+
+// FIRST ITEM
+
+.occasion__first-item{
+    
+    margin-top:5vh;
+
+    .occasion__img-container{
+        background-image: url(../images/birthday.png);
+        width:80vw;
+        height: 80vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .occasion__item-name{
+        margin: 5vw 0 5vw 15vw ;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .occasion__item-link{
+        margin: 5vw 0 10vw 15vw ;
+        color: black;
+        margin-top: 1rem;
+    }
+
+}
+
+// SECOND ITEM
+
+.occasion__second-item{
+    
+    margin-top:5vh;
+
+    .occasion__img-container{
+        background-image: url(../images/anniversary.png);
+        width:80vw;
+        height: 80vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .occasion__item-name{
+        margin: 5vw 0 5vw 15vw ;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .occasion__item-link{
+        margin: 5vw 0 5vw 15vw ;
+        color: black;
+        margin-top: 1rem;
+    }
+
+}
+
+// THIRD ITEM
+
+.occasion__third-item{
+    
+    margin-top:5vh;
+
+    .occasion__img-container{
+        background-image: url(../images/valentines.png);
+        width:80vw;
+        height: 80vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .occasion__item-name{
+        margin: 5vw 0 5vw 15vw ;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .occasion__item-link{
+        margin: 5vw 0 5vw 15vw ;
+        color: black;
+        margin-top: 1rem;
+    }
+
+}
+
+// FOURTH ITEM
+
+.occasion__fourth-item{
+    
+    margin-top:5vh;
+
+    .occasion__img-container{
+        background-image: url(../images/christmas.png);
+        width:80vw;
+        height: 80vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .occasion__item-name{
+        margin: 5vw 0 5vw 15vw ;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .occasion__item-link{
+        margin: 5vw 0 5vw 15vw ;
+        color: black;
+        margin-top: 1rem;
+    }
+
+}

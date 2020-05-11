@@ -1,0 +1,14 @@
+.social-icons{
+    @include flex-center;
+    justify-content: space-around;
+    margin: 1rem;
+
+    .footer__copyrights-text{
+    margin-right: 5px;
+    }
+
+    .social-icons__icon{
+    color:#000
+    }
+
+}

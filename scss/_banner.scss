@@ -1,0 +1,57 @@
+.banner{
+    margin-top: 10vh;
+    height:55vh;
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+
+    &__text{
+        text-align: center;
+    }
+
+    &__title{
+        padding-top: 2rem;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 42px;
+    }
+
+    &__paragraph{
+        padding-top: 1rem;
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .banner__buttons-container{
+        display: flex;
+        align-items: center;
+        height:100%;
+        flex-direction: column;
+    
+        .banner__first-btn{
+            font-family: $main-font;
+            position: relative;
+            top:60px;
+            height: 75px;
+            width: 200px;
+            background: #231F20;
+            color: #FFF;
+            font-size: 20px;
+            border-radius: 5px;
+            border-color:#231F20; ;
+        }
+
+        .banner__second-btn{
+            font-family: $main-font;
+            position: relative;
+            top:110px;
+            height: 75px;
+            width:200px;
+            font-size: 20px;
+            font-weight: 600;
+            background: $primary-color;
+            border-radius: 5px;
+            border-color: #000;
+        }
+    }
+}

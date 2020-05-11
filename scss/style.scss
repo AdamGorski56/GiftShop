@@ -1,0 +1,15 @@
+
+@import 'reset';
+@import 'variables';
+@import 'header';
+@import 'starter-articles';
+@import 'occasions';
+@import 'banner';
+@import 'blog';
+@import 'footer';
+@import 'social-icons';
+
+
+html{
+    font-family: $main-font;
+}

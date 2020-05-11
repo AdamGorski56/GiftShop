@@ -1,0 +1,102 @@
+.blog__container{
+    margin:0 auto;
+    width:80vw;
+    .blog__header{
+        text-align: center;
+
+        .blog__header-title{
+            margin: 1rem 0 1rem 0;
+            font-weight: bold;
+            font-size: 24px;
+
+        }
+
+    }
+
+    .blog__banner{
+        @include flex-center;
+        flex-direction: column;
+        height:60vh;
+        margin-top: 2rem;
+
+        .blog__banner-img-container{
+            background-image: url(../images/couple2.png);
+            background-size: cover;
+            height:100vw;
+            width:100%;
+        }
+
+        .blog__banner-text-container{
+            background: #231F20;
+            color: #FFF;
+            height:40vh;
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .blog__banner-signature{
+                font-size: 12px;
+                margin-left: 1rem;
+            
+            }
+
+            .blog__banner-paragraph{
+                font-size: 24px;
+                margin-left: 1rem;
+                margin-right: 1rem; 
+            }
+
+            .blog__bannner-link{
+                color:#FFF;
+                margin-left: 1rem; 
+            }
+        }
+    }
+
+    .blog__articles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 200vw;
+
+        .blog__database-article{
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .blog__database-article-title{
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .blog__database-article-link{
+                color:#000;
+                font-size: 14px;
+               
+            }
+
+        }
+
+        .blog__intelligence-article{
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .blog__intelligence-article-title{
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .blog__intelligence-article-link{
+                color:#000;
+                font-size: 14px;
+               
+            }
+
+        }
+
+    }
+}

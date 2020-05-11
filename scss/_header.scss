@@ -1,0 +1,56 @@
+ @import 'hamburger';
+
+.header{
+    height: 10vh;
+}
+
+.navigation{
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 0fr;
+    height: 10vh;
+    text-align: center;
+
+    &__list-items{
+    @include flex-center;
+    display: none;
+    }
+
+    &__list-item{
+    padding: 3.5rem 1rem 1rem 1rem;
+    }
+
+    &__logo{
+    position: relative;
+    left: 20vw;
+    top:48px;
+    }
+
+    &__link{
+        font-weight: 600;
+        color: black;
+    }
+
+}
+
+.gift-finder{
+    display: none;
+    position: relative;
+    left:20%;
+    top:42px;
+    font-family: 'Quicksand', sans-serif;
+    height:45px;
+    width: 150px;
+    background-color: #FFF;
+    border: 1px solid #F7941E;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    &__text{
+        color: $primary-color;
+        font-family: 'Quicksand', sans-serif;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
