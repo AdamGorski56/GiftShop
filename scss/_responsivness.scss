@@ -1,27 +1,9 @@
-$primary-color :#F7941E;
-
-$main-font : 'Quicksand', sans-serif;
-
-@mixin flex-center {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@mixin media-sm { 
-
-    @media screen and (min-width:425px) { 
-        @content;
-    }
-
-}
 
 @mixin media-md { 
 
     @media screen and (min-width:768px) { 
         @content;
     }
-
 }
 
 @mixin media-lg { 
@@ -29,7 +11,6 @@ $main-font : 'Quicksand', sans-serif;
     @media screen and (min-width:1024px) { 
         @content;
     }
-
 }
 
 @mixin media-xl { 
@@ -37,6 +18,4 @@ $main-font : 'Quicksand', sans-serif;
     @media screen and (min-width:1600px) { 
         @content;
     }
-
 }
-

@@ -8,6 +8,7 @@
     border: 0;
     margin: 0;
     position: absolute;
+    transition: .3s .2s ease-in-out;;
 
     &--active:focus {
         outline-color:$primary-color;
@@ -56,3 +57,26 @@
         }
     }
 }
+
+.hamburger--active {
+    position: absolute;
+    top:5%;
+    left:80%;
+    transition: .3s .2s ease-in-out;;
+
+    .hamburger__inner{
+    background-color: transparent;
+    }
+
+    .hamburger__inner::before{
+    transform: translateY(10px) rotate(45deg);
+    width:100%
+    }
+
+    .hamburger__inner::after{
+    transform: translateY(-10px) rotate(-45deg);
+    width:100%;
+    }
+}
+
+
