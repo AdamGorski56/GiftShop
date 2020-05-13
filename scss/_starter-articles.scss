@@ -28,6 +28,14 @@
             background: $primary-color;
             border-radius: 5px;
             text-transform: uppercase;
+            &:hover{
+                background: #FFF;
+                color:$primary-color;
+                font-weight: bold;
+                cursor: pointer;
+                border: 1px solid $primary-color;
+
+            }
         }
     }
 
@@ -71,6 +79,12 @@
             color: $primary-color;
             border-radius: 5px;
             text-transform: uppercase;
+            &:hover{
+                cursor: pointer;
+                background: $primary-color ;
+                color: #FFF;
+            }
+        
         }
 
     }

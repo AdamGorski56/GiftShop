@@ -58,6 +58,13 @@
     border: 1px solid #F7941E;
     box-sizing: border-box;
     border-radius: 5px;
+    &:hover{
+        cursor: pointer;
+        background: $primary-color ;
+        .gift-finder__text{
+            color: #FFF;
+        }
+    }
 
     &__text{
         color: $primary-color;

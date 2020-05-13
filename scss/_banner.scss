@@ -39,6 +39,12 @@
             font-size: 20px;
             border-radius: 5px;
             border-color:#231F20; ;
+            &:hover{
+                font-weight: bold;
+                cursor: pointer;
+                color: $primary-color;
+            }
+        
         }
 
         .banner__second-btn{
@@ -52,6 +58,12 @@
             background: $primary-color;
             border-radius: 5px;
             border-color: #000;
+            &:hover{
+                font-weight: bold;
+                cursor: pointer;
+                background: #231F20 ;
+                color: $primary-color;
+            }
         }
     }
 }
