@@ -6,8 +6,6 @@
 
 .navigation{
 
-    // display: grid;
-    // grid-template-columns: 1fr 3fr 1fr 0fr;
     height: 10vh;
     text-align: center;
 
@@ -20,7 +18,6 @@
     background-color: #FFF;
     border: 3px solid $primary-color;
     border-radius: 2%;
-
     }
 
     &__list-item{
@@ -39,12 +36,9 @@
         font-weight: 600;
         color: black;
     }
-
 }
 
 .navigation--active{
-
-
 
     .navigation__list-items{
 

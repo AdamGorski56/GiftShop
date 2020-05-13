@@ -1,0 +1,191 @@
+@include media-lg {
+
+    .navigation__list-item{
+        padding: 3.5rem 1rem 3.5rem 1rem;
+        font-size: 24px;
+        font-weight: bold;
+        }
+        
+    // STARTRER ARTICLES SECTION
+    .starter{
+        height:180vh;
+    }
+    .starter__article-find-gift{
+        height: 70vh;
+        display: flex;
+        
+        .starter__article-text{
+            height: 100%;
+            width:50%;
+            align-items: flex-start;
+    
+            .starter__article-title{
+                width:60%;
+                font-size: 48px;
+                text-align: left;
+                margin-left:25%;
+            }
+    
+            .starter__article-paragraph{
+                width:60%;
+                text-align: left;
+                margin-top: 2rem;
+                margin-left:25%;
+                font-size: 24px;
+            }
+    
+            .starter__article-btn{
+                margin-left:25%;
+                position: relative;
+                margin-top: 2rem;
+                height: 62px;
+                width:220px;
+            }
+        }
+
+        .starter__img-container{
+            height: 100%;
+            width: 50%;
+            background-position: 80% 50%;
+        }
+    }
+
+    .starter__article-how-we-work{
+        height:75vh;
+        display: flex;
+        flex-direction: row-reverse;
+
+        .starter__article-text{
+            height:100%;
+            width:50%;
+            align-items: flex-start;
+            
+            .starter__article-title{
+                width:60%;
+                font-size: 48px;
+                text-align: left;
+                margin-left:25%;
+            }
+
+            .starter__article-paragraph{
+                width:60%;
+                text-align: left;
+                margin-top: 2rem;
+                margin-left:25%;
+                font-size: 24px;
+            }
+
+            .starter__article-btn{
+                margin-left:25%;
+                position: relative;
+                margin-top: 2rem;
+                height: 62px;
+                width:220px;
+            }
+        }   
+        .starter__img-container{
+            height:100%;
+            width: 50%;
+            background-size: cover;
+            background-position: center;
+            
+        }
+    }
+        //    OCCASIONS SECTION 
+    .occasion__items{
+        grid-template-columns: repeat(4, 1fr);
+    
+        .occasion__img-container{
+            width:20vw;
+            height: 20vw;
+        }
+
+        .occasion__item-name{
+            margin: 2vw 0 3vw 3vw ;
+            font-weight: lighter;
+        }
+
+        .occasion__item-link{
+            margin: 2vw 0 3vw 3vw ;
+        }
+    }
+    // BANNER SECTION
+
+    .banner{
+        height:35vh;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .banner__text{
+            text-align: center;
+            align-self: center;
+        }
+
+        .banner__title{
+            padding-top: 0; 
+            font-weight: bold;
+            font-size: 32px;
+        }
+
+        .banner__paragraph{
+            font-size: 32px;
+            line-height: 38px;
+        }
+    }
+    // BLOG SECTION
+    .blog__container{
+
+        .blog__banner{
+            height:60vh;
+            flex-direction: row;
+        
+            .blog__banner-img-container{
+                height:50vh;
+                width:65%;
+            }
+            .blog__banner-text-container{
+                background: #231F20;
+                color: #FFF;
+                height:50vh;
+                width:100%;
+
+                .blog__banner-signature, .blog__banner-paragraph,.blog__bannner-link{
+                    margin-left: 3rem;
+                }
+             }
+        }
+        .blog__articles{
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            margin: 0;
+            height: 40vh;
+            .blog__database-article{
+                height:70%;
+                justify-content: center;
+                margin: 0;
+                width:40%;
+            }
+            .blog__intelligence-article{
+                height:70%;
+                justify-content: center;
+                margin: 0;
+                width:40%;
+            }
+        }
+    }
+    // FOOTER SECTION
+    .footer__navigation{
+        border-top: none;
+    }
+
+      // SOCIAL ICONS SECTION
+      .social-icons{
+        width:50%;
+        justify-content: center;
+        margin: 4rem auto;
+        .social-icons__icon{
+            padding: 0 1rem;
+        }
+    }
+}

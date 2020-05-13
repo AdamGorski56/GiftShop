@@ -1,0 +1,228 @@
+@import 'responsivness-size-config';
+
+@include media-sm {
+    .blog__header{
+        margin-top: 10vh;
+    }
+    
+    .blog__container{
+
+        .blog__articles{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 70vh;
+    
+            .blog__database-article, .blog__intelligence-article{
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin: 10vh auto ;
+    
+                .blog__database-article-title, .blog__intelligence-article-title{
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+
+                .blog__database-article-paragraph, .blog__intelligence-article-paragraph{
+                    margin-top:3vh; 
+                }
+    
+                .blog__database-article-link, .blog__intelligence-article-link{
+                    color:#000;
+                    font-size: 14px;
+                    margin-top:3vh;
+                }
+            }
+        }
+    }
+}
+
+
+@include media-md{
+// HEADER SECTION
+    .header{
+        height: auto;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .navigation{
+        width: 100%;
+        position: fixed;
+        background-color: #FFF;
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        z-index: 100;
+    
+        &__list-items{
+        display: flex;
+        justify-content: center;
+        transform: translateX(0%);
+        transition:.3s .2s ease-in-out;
+        
+        border: none;
+        }
+    
+        &__list-item{
+        
+        font-size: 16px;
+        font-weight: bold;
+        }
+    
+        &__logo{
+        position: relative;;
+        left:40%;
+        top:48px;
+        }
+    
+        &__link{
+            font-weight: 600;
+            color: black;
+        }
+    }  
+
+    .gift-finder{
+        display: block;
+        position: relative;
+        margin-right: 70px;
+        top:44px;
+    }
+    // STARTER ARTICLE SECTION
+    .starter__article-find-gift{
+        position: relative;
+        height:120vw;
+        top:128px;
+    
+        .starter__img-container{
+            height: 45%;
+            width:80%;
+            margin: 0 auto;
+        }
+    }
+    .starter__article-how-we-work{
+
+        position: relative;
+        height:150vw;
+        top:128px;
+    
+            .starter__article-paragraph{
+                width:60%;
+            }
+        }
+    
+        .starter__img-container{
+            width: 80%;
+            margin: 0 auto;
+        }
+
+    //    OCCASIONS SECTION 
+
+    .occasion__items{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+        .occasion__img-container{
+            width:30vw;
+            height: 30vw;
+        }
+
+        .occasion__item-name{
+            margin: 5vw 0 3vw 10vw ;
+        }
+
+        .occasion__item-link{
+            margin: 5vw 0 3vw 10vw ;
+        }
+    }
+
+    //  BANNER SECTION
+    .banner{
+
+        .banner__title{
+            padding-top: 5rem;
+        }
+
+        .banner__buttons-container{
+            @include flex-center;
+            flex-direction: row;
+
+                .banner__first-btn{
+                top:0px;
+                margin:1rem;
+            }
+
+            .banner__second-btn{
+                top:0px;
+                margin:1rem;
+                height: 75px;
+            }
+        }
+    }
+
+    // BLOG SECTION
+
+    .blog__container{
+        margin: 15vh auto;
+        .blog__header{
+            text-align: center;
+    
+            .blog__header-title{
+                margin: 5vh 0 5vh 0;
+    
+            }
+        }
+    }
+    .blog__container{
+        .blog__banner{
+    
+            height:80vh;
+
+            .blog__banner-img-container{
+                background-position: 50% 25%;
+            }
+
+            .blog__banner-text-container{
+                background: #231F20;
+                color: #FFF;
+                height:50vh;
+                width:100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+            }
+        }
+    }
+
+    // FOOTER NAVIGATION SECTION
+    .footer__navigation{
+
+        .footer__navigation-list-items{
+
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }  
+    }
+
+    // SOCIAL ICONS SECTION
+    .social-icons{
+        width:50%;
+        margin: 2rem auto;
+    }
+}
+
+
+
+
+
+
