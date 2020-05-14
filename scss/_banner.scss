@@ -1,9 +1,10 @@
 .banner{
     margin-top: 10vh;
-    height:55vh;
+    height:60vh;
     background-color: $primary-color;
     display: flex;
     flex-direction: column;
+    
 
     &__text{
         text-align: center;

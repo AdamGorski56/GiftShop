@@ -8,14 +8,15 @@
     border: 0;
     margin: 0;
     position: absolute;
-    transition: .3s .2s ease-in-out;;
+    transition: .3s .2s ease-in-out;
+    outline:0;
 
     &--active:focus {
-        outline-color:$primary-color;
+        outline:0;
     }
 
     &focus {
-        outline-color:$primary-color;
+        outline:0;
     }
 
     &__box{
@@ -62,7 +63,7 @@
     position: absolute;
     top:5%;
     left:45%;
-    transition: .3s .2s ease-in-out;;
+    transition: .3s .2s ease-in-out;
 
     .hamburger__inner{
     background-color: transparent;
